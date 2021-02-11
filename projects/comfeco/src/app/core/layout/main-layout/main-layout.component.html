@@ -1,8 +1,18 @@
 <main>
-  <!-- Header -->
-  <comfeco-header></comfeco-header>
-  <!-- Content -->
-  <router-outlet></router-outlet>
-  <!-- Footer -->
-  <comfeco-footer></comfeco-footer>
+  <nb-layout>
+    <nb-layout-header fixed>
+      <!-- Header -->
+      <comfeco-header></comfeco-header>
+    </nb-layout-header>
+
+    <nb-layout-column>
+      <!-- Content -->
+      <router-outlet></router-outlet>
+    </nb-layout-column>
+
+    <nb-layout-footer fixed>
+      <!--  Footer -->
+      <comfeco-footer></comfeco-footer>
+    </nb-layout-footer>
+  </nb-layout>
 </main>
