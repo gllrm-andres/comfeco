@@ -31,8 +31,9 @@
               "projects/comfeco/src/assets"
             ],
             "styles": [
-              "projects/comfeco/src/styles.scss",
-              "node_modules/@nebular/theme/styles/prebuilt/default.css"
+              "node_modules/@nebular/theme/styles/prebuilt/default.css",
+              "node_modules/@fontsource/poppins/latin.css",
+              "projects/comfeco/src/styles.scss"
             ],
             "scripts": []
           },
